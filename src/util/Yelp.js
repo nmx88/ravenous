@@ -1,4 +1,4 @@
-const apiKey = 'fMBUwCJJJmQJao18U5ebyaJ1VPAub8WiHdmVKHmOd5XAu9FH84OlxDM5Jkd2ktZ-fsNucjKQxQjEPmZ7OQxby59HplKxSWly7UDbQSZ6p_Ew7jWiZ9EhXM8wDeKqXnYx';
+const apiKey = process.env.REACT_APP_API_KEY;
 
 const Yelp = {
     searchYelp(term, location, sortBy) {
